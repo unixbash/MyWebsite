@@ -282,7 +282,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       <!-- page clients -->
       <h3 class="page_title"> Play a Game </h3>
       <div class="page_content">
-          <a target="_blank" original-title="Play a Game" href="<?php  echo $domainName; ?>/game"><img src="http://s21.postimg.org/z7bbkxypi/flappy_bird.jpg"></a>
+          <a target="_blank" original-title="Play a Game" href="http://filipn.com//game"><img src="https://i.ytimg.com/vi/1IdK6Z-DmvY/maxresdefault.jpg"></a>
       </div>
     </div>
     <div class="page" id="contact"> 
