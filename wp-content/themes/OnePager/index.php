@@ -8,6 +8,10 @@
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
+<?php 
+  $domainName =  $_SERVER['HTTP_HOST'];
+?>
+
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/style.css" media="screen" />
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles/media-queries.css" />
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/flex-slider/flexslider.css" type="text/css" media="screen" />
@@ -278,7 +282,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       <!-- page clients -->
       <h3 class="page_title"> Play a Game </h3>
       <div class="page_content">
-          <a target="_blank" original-title="Play a Game" href="http://www.redbrick.dcu.ie/~unixbash/game"><img src="http://s21.postimg.org/z7bbkxypi/flappy_bird.jpg"></a>
+          <a target="_blank" original-title="Play a Game" href="<?php  echo $domainName; ?>/game"><img src="http://s21.postimg.org/z7bbkxypi/flappy_bird.jpg"></a>
       </div>
     </div>
     <div class="page" id="contact"> 
